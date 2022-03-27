@@ -1,0 +1,10 @@
+.header {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.logo {
+    width: 20%;
+}
