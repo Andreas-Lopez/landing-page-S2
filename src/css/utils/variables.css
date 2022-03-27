@@ -1,0 +1,26 @@
+:root{
+    /* Color styles */
+--blanc: rgba(255, 255, 255, 1);
+--noir: rgba(0, 0, 0, 1);
+--canson: rgba(249, 240, 229, 1);
+--jaune: rgba(255, 245, 0, 1);
+--footer: rgba(236, 228, 160, 1);
+
+/* Text-size styles */
+--l-g38: 38px;
+--l-g20: 20px;
+--b-s-b19: 19px;
+--b-b21: 21px;
+--l-g25: 25px;
+--b-b27-j: 27px;
+--b-b22-j: 22px;
+--b-m15: 15px;
+--404font: 40px;
+--b-m16: 16px;
+--b-b29: 29px;
+--l-g59: 59px;
+--b-r22: 22px;
+--b-b36: 36px;
+--b-b42: 42px;
+
+}
