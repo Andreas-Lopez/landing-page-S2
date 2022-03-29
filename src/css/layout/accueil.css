@@ -1,34 +1,35 @@
 .titreaccroche {
-    width:65%;
+    width: 65%;
 }
 
 .rouge {
-color:red;
--webkit-text-stroke:2px black;
+    color: red;
+    -webkit-text-stroke: 2px black;
 }
 
 .bleu {
     color: blue;
-    -webkit-text-stroke:2px black;
+    -webkit-text-stroke: 2px black;
 }
 
 .vert {
     color: green;
-    -webkit-text-stroke:2px black;
+    -webkit-text-stroke: 2px black;
 }
+
 .cyan {
     color: cyan;
-    -webkit-text-stroke:2px black;
+    -webkit-text-stroke: 2px black;
 }
 
 .marron {
     color: brown;
-    -webkit-text-stroke:2px black;
+    -webkit-text-stroke: 2px black;
 }
 
 .rose {
     color: pink;
-    -webkit-text-stroke:2px black;
+    -webkit-text-stroke: 2px black;
 }
 
 .bsb19 {
@@ -37,40 +38,52 @@ color:red;
     font-weight: 600;
 }
 
-.post-it, .eskissestla{
-    width:40%;
-    margin:1rem;
+.post-it,
+.eskissestla {
+    width: 40%;
+    margin: 1rem;
 }
 
-.post-it1{
-width: 505px;
-padding: 50px 10px 50px 10px;
-margin-bottom: 180px;
-position: relative;
-background-image: url(../../../assets/img/blob1.svg);
-padding: 100px 0px 150px 100px;
-position: relative;
-    
+.eskissestla {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
 }
 
-.post-it2{
+.post-it1 {
+    background-color: white;
     width: 505px;
     padding: 50px 10px 50px 10px;
-    margin-bottom: 80px;
-    position: relative;
-    background-image: url(../../../assets/img/blob2.svg);
-        
-    }
+    border-radius: 43% 57% 30% 70% / 55% 58% 42% 45% ;
+    padding: 100px 50px 100px 50px;
+    text-align: center;
+   
+}
 
-.post-it3{
+.post-it2 {
+    background-color: white;
     width: 505px;
     padding: 50px 10px 50px 10px;
+    border-radius: 70% 30% 80% 20% / 55% 58% 42% 45% ;
+    padding: 50px;
+    text-align: center;
+    margin-left: auto;
+    padding: 100px 50px 100px 50px;
+}
+
+.post-it3 {
+    background-color: white;
+    width: 505px;
+    padding: 50px 10px 50px 10px;
+    border-radius: 35% 65% 39% 61% / 53% 47% 53% 47%  ;
     margin-bottom: 80px;
-    position: relative;
-    background-image: url(../../../assets/img/blob3.svg);
-            
-    }
-    
+    padding: 50px;
+    text-align: center;
+    padding: 100px 50px 100px 50px;
+}
+
+
 .lienap {
     font-family: 'Luckiest Guy';
     color: black;
@@ -79,11 +92,11 @@ position: relative;
 }
 
 .insap {
-   text-align: center;
-   align-items: center;
-   margin-bottom: 50px;
-   display: flex;
-   flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
 }
 
 .boutoninscription {
@@ -103,16 +116,16 @@ position: relative;
     margin-bottom: 30px;
     align-self: center;
     border: 3px solid black;
-    -webkit-box-shadow: 5px 5px 0px 0px #000000; 
+    -webkit-box-shadow: 5px 5px 0px 0px #000000;
     box-shadow: 5px 5px 0px 0px #000000;
 
-  }
-  
-  .boutoninscription a {
-    color: black;
-  }
+}
 
-  .boutoninscription2 {
+.boutoninscription a {
+    color: black;
+}
+
+.boutoninscription2 {
     background-color: var(--jaune);
     color: black;
     border-radius: 30px;
@@ -127,15 +140,10 @@ position: relative;
     margin-bottom: 30px;
     align-self: center;
     border: 3px solid black;
-    -webkit-box-shadow: 5px 5px 0px 0px #000000; 
+    -webkit-box-shadow: 5px 5px 0px 0px #000000;
     box-shadow: 5px 5px 0px 0px #000000;
-  }
+}
 
-  .boutoninscription2 a {
+.boutoninscription2 a {
     color: black;
-  }
-
-  .blob {
-    position: relative;
-    background-image: url(../../../assets/img/blob1.svg);
-  }
+}
