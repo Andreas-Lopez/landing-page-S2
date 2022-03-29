@@ -1,13 +1,81 @@
 img {
-    max-width: 100%;
-    height: auto;
-  }
+  max-width: 100%;
+  height: auto;
+}
 
-  body {
-      background-color: var(--canson);
-  }
-  
-  a {
-    text-decoration: none;
-  }
+body {
+    background-color: var(--canson);
+}
 
+a {
+  text-decoration: none;
+}
+
+main {
+width:80%;
+margin:auto;
+}
+
+.flex-row {
+display:flex;
+justify-content: space-between;
+}
+
+.accrochediv {
+align-self:center;
+width: 50%;
+}
+
+.flex-column {
+display:flex;
+flex-direction:column;
+}
+
+
+.flex-wrap {
+display:flex;
+flex-wrap:wrap;
+justify-content: space-between;
+text-align: center;
+}
+
+h1 {
+  font-family: 'Luckiest Guy';
+  font-weight: 10;
+}
+
+h2 {
+  font-family: 'Luckiest Guy';
+  font-size: 59px;
+}
+
+h3 {
+  font-family: 'Barlow';
+  font-size: 19px;
+  font-weight: 600;
+}
+
+h4 {
+  font-family: 'Luckiest Guy';
+  font-size: 20px;
+}
+
+h5 {
+  font-family: 'Barlow';
+  font-size: 29px;
+  font-weight: 700;
+}
+
+
+
+.parent {
+  position: relative;
+  text-align: center;
+}
+
+.texte_centrer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

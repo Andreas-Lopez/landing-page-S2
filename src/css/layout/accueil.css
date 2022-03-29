@@ -1,0 +1,113 @@
+.titreaccroche {
+    width:65%;
+}
+
+.rouge {
+color:red;
+-webkit-text-stroke:2px black;
+}
+
+.bleu {
+    color: blue;
+    -webkit-text-stroke:2px black;
+}
+
+.vert {
+    color: green;
+    -webkit-text-stroke:2px black;
+}
+.cyan {
+    color: cyan;
+    -webkit-text-stroke:2px black;
+}
+
+.marron {
+    color: brown;
+    -webkit-text-stroke:2px black;
+}
+
+.rose {
+    color: pink;
+    -webkit-text-stroke:2px black;
+}
+
+.bsb19 {
+    font-family: 'Barlow';
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.post-it, .eskissestla{
+    width:40%;
+    margin:1rem;
+}
+
+.post-it{
+background-color:blanchedalmond;
+width: 505px;
+padding: 50px 10px 50px 10px;
+box-shadow: 10px 10px 19px 11px rgba(0,0,0,0.25);
+margin-bottom: 80px;
+    
+}
+
+.lienap {
+    font-family: 'Luckiest Guy';
+    color: black;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.insap {
+   text-align: center;
+   align-items: center;
+   margin-bottom: 50px;
+   display: flex;
+   flex-direction: column;
+}
+
+.boutoninscription {
+    background-color: var(--jaune);
+    color: black;
+    border-radius: 30px;
+    padding: 5px 5px 5px 5px;
+    font-size: 20px;
+    font-family: 'Barlow';
+    font-weight: 700;
+    border: black;
+    text-decoration: none;
+    width: 280px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    align-self: center;
+    border: 3px solid black;
+
+  }
+  
+  .boutoninscription a {
+    color: black;
+  }
+
+  .boutoninscription2 {
+    background-color: var(--jaune);
+    color: black;
+    border-radius: 30px;
+    padding: 5px 5px 5px 5px;
+    font-size: 20px;
+    font-family: 'Barlow';
+    font-weight: 700;
+    text-decoration: none;
+    width: 280px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    align-self: center;
+    border: 3px solid black;
+ 
+  }
+
+  .boutoninscription2 a {
+    color: black;
+  }
