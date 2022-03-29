@@ -42,15 +42,35 @@ color:red;
     margin:1rem;
 }
 
-.post-it{
-background-color:blanchedalmond;
+.post-it1{
 width: 505px;
 padding: 50px 10px 50px 10px;
-box-shadow: 10px 10px 19px 11px rgba(0,0,0,0.25);
-margin-bottom: 80px;
+margin-bottom: 180px;
+position: relative;
+background-image: url(../../../assets/img/blob1.svg);
+padding: 100px 0px 150px 100px;
+position: relative;
     
 }
 
+.post-it2{
+    width: 505px;
+    padding: 50px 10px 50px 10px;
+    margin-bottom: 80px;
+    position: relative;
+    background-image: url(../../../assets/img/blob2.svg);
+        
+    }
+
+.post-it3{
+    width: 505px;
+    padding: 50px 10px 50px 10px;
+    margin-bottom: 80px;
+    position: relative;
+    background-image: url(../../../assets/img/blob3.svg);
+            
+    }
+    
 .lienap {
     font-family: 'Luckiest Guy';
     color: black;
@@ -83,6 +103,8 @@ margin-bottom: 80px;
     margin-bottom: 30px;
     align-self: center;
     border: 3px solid black;
+    -webkit-box-shadow: 5px 5px 0px 0px #000000; 
+    box-shadow: 5px 5px 0px 0px #000000;
 
   }
   
@@ -105,9 +127,15 @@ margin-bottom: 80px;
     margin-bottom: 30px;
     align-self: center;
     border: 3px solid black;
- 
+    -webkit-box-shadow: 5px 5px 0px 0px #000000; 
+    box-shadow: 5px 5px 0px 0px #000000;
   }
 
   .boutoninscription2 a {
     color: black;
+  }
+
+  .blob {
+    position: relative;
+    background-image: url(../../../assets/img/blob1.svg);
   }

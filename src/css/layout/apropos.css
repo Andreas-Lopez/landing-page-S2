@@ -8,7 +8,56 @@
 .centre1 {
     text-align: center;
     width: 60%;
-    line-height: 30px;
+    line-height: 25px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.bloc1 {
+    display: flex;
+    outline: 5px ridge #ef266c;
+    outline-offset: 0px;
+    border-radius: 10px;
+}
+
+.bloc1txt {
+    flex-direction: column;
+    margin-top: 30px;
+    width: 50%;
+    line-height: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bloc2 {
+    display: flex;
+    background-color: var(--blanc_casse);
+    margin-top: 30px;
+    
+}
+
+.coeur {
+    width: 30%;
+    margin: auto;
+}
+
+.bm16carre {
+    font-family: 'Barlow';
+    font-size: 16px;
+    font-weight: 500;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centre2 {
+    line-height: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.h5carre {
+    margin-left: 120px;
 }
