@@ -1,0 +1,59 @@
+.question {
+    font-family: 'Barlow';
+    font-size: 36px;
+    text-align: center;
+}
+
+.container2 {
+    background-color: var(--blanc_casse);
+    border-radius: 50px;
+    width: 960px;
+    margin: 50px auto 50px auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-family: 'Barlow';
+    font-size: 22px;
+    
+}
+
+.boutoninscription4 {
+    background-color: var(--jaune);
+    color: black;
+    border-radius: 30px;
+    padding: 5px 5px 5px 5px;
+    font-size: 20px;
+    font-family: 'Barlow';
+    font-weight: 700;
+    border: black;
+    text-decoration: none;
+    width: 180px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border: 3px solid black;
+    -webkit-box-shadow: 5px 5px 0px 0px #000000;
+    box-shadow: 5px 5px 0px 0px #000000;
+
+}
+
+.flexcontact {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    height: 150px;
+    width: 600px;
+}
+
+.contactbox {
+    margin-left: auto;
+}
+
+.posicont {
+    margin-bottom: 20px;
+    margin-right: 100px;
+}
