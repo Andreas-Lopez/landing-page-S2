@@ -263,3 +263,7 @@
 .b-contain:first-child .b-input::before {
 	visibility: hidden;
 }
+
+.b-input {
+	margin-top: 5px;
+}

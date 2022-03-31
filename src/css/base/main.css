@@ -66,6 +66,12 @@ h5 {
   font-weight: 700;
 }
 
+h6 {
+  font-family: 'Barlow';
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
 
 
 .parent {
